@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Open+Sans:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    background-color: #eee;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #eee;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    font-family: Didot, serif;
+    font-size: 2rem;
+
+}
+
+.logos img{
+    width: 2rem;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.navigation-list{
+    display: flex;
+}
+
+.navigation-list li{
+    margin: 0 3rem;
+}
+
+main{
+    position: relative;
+    top: 5rem;
+}
+
+.newsletter{
+    margin: 1rem auto;
+    text-align: center;
+
+}
+
+.newsletter h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+
+.newsletter input{
+    margin: 0.5rem auto;
+}
+
+input[type=email]{
+    width: 25rem;
+    padding: 0.5rem auto;
+}
+
+input[type="submit"]{
+    width: 10rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: yellow;
+    border: none;
+}
+
+#features img{
+    width: 3rem;
+    height: auto;
+}
+
+.containers{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 3rem;
+    align-items: center;
+
+}
+
+
+#features h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#features{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.feature-container{
+    margin: auto 2rem;
+}
+
+.feature-container p{
+    margin: 0.5rem auto;
+}
+
+#how-it-works .containers{
+    justify-content: center;
+}
+
+#pricing{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#pricing .guitars{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.guitars h3{
+    background-color: gainsboro;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.guitars p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.guitars li{
+    margin: 0.5rem;
+}
+
+.guitars input[type="button"]{
+    background-color: yellow;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    margin: 1rem;
+    border: none;
+}
+
+footer{
+    background-color: burlywood;
+    padding: 1rem;
+    text-align: right;
+}
+
+
+
+
+
+
+
